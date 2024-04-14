@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <div class="color-line"></div>
+  <div class="card">
+    <img src="./images/card-logo.svg" class="logo">
+    <span id="cardNums">0000 0000 0000 0000</span>
+    <span id="userName">Jane Appleseed</span>
+    <span id="userMonth">00</span><span class="slash">/</span></span></span><span id="userYear">00</span>
+  </div>
+  <div class="card-cvc">
+    <span id="userCvc">000</span>
+  </div>
+  <div class="main">
+    <div class="card-id">
+      <p>Cardholder Name</p>
+      <input id="name" type="text" placeholder="e.g. Jane Appleseed">
+      
+      <p style="margin-top: 2vw;">Card Number</p>
+      <input id="cardNumber" type="text" placeholder="e.g. 1234 5678 9123 0000">
+      
+      <p style="margin-top: 2vw;">Exp. Date (MM/YY)</p>
+      <input id="month" type="number" placeholder="MM">
+      <input id="year" type="number" placeholder="YY">
+      
+      <p style="position: absolute; margin-top: -4.8vw; margin-left: 12.2vw;">CVC</p>
+      <input id="cvc" type="number" placeholder="e.g. 123"> 
+      
+      <button id="confirm-btn" onclick="myFunction()">Confirm</button>
+    </div>
+  </div>
+
+  <!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tini</a>.
+  </div>
+  -->
+    <script src="./index.js"></script>
+
+</body>
+</html>
